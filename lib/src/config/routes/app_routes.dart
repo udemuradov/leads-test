@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:leads_test/src/presentation/views/navigation_page.dart';
+import 'package:leads_test/src/presentation/views/home_page.dart';
 
 class AppRoutes {
   static Route onGenerateRoutes(RouteSettings settings) {
     switch (settings.name) {
       case '/':
-        return _materialRoute(const NavigationPage());
+        return _materialRoute(const HomePage());
       default:
-        return _materialRoute(const NavigationPage());
+        return _materialRoute(const HomePage());
     }
   }
 
@@ -16,6 +16,6 @@ class AppRoutes {
   }
 
   static Route onUnkownRoute(RouteSettings settings) {
-    return MaterialPageRoute(builder: (_) => const NavigationPage());
+    return MaterialPageRoute(builder: (_) => const HomePage());
   }
 }

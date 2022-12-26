@@ -19,11 +19,11 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter_native_splash:
-  color: "#FFFFFF"
+  color: "#121212"
   image: assets/images/preloader.png
   android_12:
     image: assets/images/preloader.png
-    color: "#FFFFFF"
+    color: "#121212"
   android: true
   ios: true
   web: false
@@ -37,9 +37,9 @@ flutter:
   fonts:
     - family: Inter
       fonts:
-        - asset: assets/fonts/inter-reg.tff
+        - asset: assets/fonts/inter-reg.ttf
           weight: 400
-        - asset: assets/fonts/inter-med.tff
+        - asset: assets/fonts/inter-med.ttf
           weight: 500
-        - asset: assets/fonts/inter-bold.tff
+        - asset: assets/fonts/inter-bold.ttf
           weight: 700
