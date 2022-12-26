@@ -81,7 +81,34 @@ class HomeCardWidget extends StatelessWidget {
                     ),
                   ],
                 ),
-              )
+              ),
+              Container(
+                padding: EdgeInsets.symmetric(vertical: 6),
+                height: 26,
+                decoration: BoxDecoration(
+                    color: AppColors.appBarColor,
+                    borderRadius: BorderRadius.circular(3)),
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Align(
+                      alignment: Alignment.center,
+                      child: Text(
+                        "2",
+                        style: TextStyle(color: AppColors.orange),
+                      ),
+                    )),
+                    Expanded(
+                        child: Align(
+                      alignment: Alignment.center,
+                      child: Text(
+                        "2",
+                        style: TextStyle(color: AppColors.orange),
+                      ),
+                    ))
+                  ],
+                ),
+              ),
             ],
           ),
         ),
